@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2bb76d90-25c7-463d-9dc2-74badbcb40a6" name="Default Changelist" comment="" />
+    <list default="true" id="2bb76d90-25c7-463d-9dc2-74badbcb40a6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home_work_0/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,16 +19,41 @@
       <executable />
     </execution>
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="php_loftschool_062020" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1cIdWqD8LOGcwRdLPj4FhhfxgS8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="terminal" />
+    <property name="last_opened_file_path" value="C:/OSPanel/domains/php1" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\projects\php_loftschool_062020\home_work_1\task_1" />
+      <recent name="F:\projects\php_loftschool_062020\home_work_1" />
+      <recent name="F:\projects\php_loftschool_062020\home_work_0" />
+      <recent name="F:\projects\php_loftschool_062020\task_0" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration>C:\Users\Anton\AppData\Roaming\Subversion</configuration>
@@ -35,6 +67,13 @@
       <updated>1590220075271</updated>
       <workItem from="1590220076616" duration="1057000" />
       <workItem from="1590221151970" duration="40000" />
+      <workItem from="1590221206738" duration="386000" />
+      <workItem from="1590228712160" duration="3319000" />
+      <workItem from="1590240823684" duration="2473000" />
+      <workItem from="1590244291786" duration="1237000" />
+      <workItem from="1590245543412" duration="3099000" />
+      <workItem from="1590250695633" duration="2097000" />
+      <workItem from="1590585061015" duration="10429000" />
     </task>
     <servers />
   </component>
@@ -42,21 +81,35 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2212" y="359" key="FileChooserDialogImpl" timestamp="1590221098451">
+    <state x="2203" y="421" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1590588727513">
       <screen x="1920" y="0" width="1024" height="1240" />
     </state>
-    <state x="2212" y="359" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1024.1240@1920.0.1024.1240" timestamp="1590221098451" />
-    <state x="1933" y="250" key="SettingsEditor" timestamp="1590221179830">
+    <state x="2203" y="421" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.0.1024.1240@1920.0.1024.1240" timestamp="1590588727513" />
+    <state x="2212" y="359" key="FileChooserDialogImpl" timestamp="1590586671012">
       <screen x="1920" y="0" width="1024" height="1240" />
     </state>
-    <state x="1933" y="250" key="SettingsEditor/0.0.1920.1040/1920.0.1024.1240@1920.0.1024.1240" timestamp="1590221179830" />
-    <state x="2127" y="442" key="com.intellij.ide.util.TipDialog" timestamp="1590221207347">
+    <state x="2212" y="359" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1024.1240@1920.0.1024.1240" timestamp="1590586671012" />
+    <state x="2267" y="542" key="NewPhpFileDialog" timestamp="1590250078677">
       <screen x="1920" y="0" width="1024" height="1240" />
     </state>
-    <state x="2127" y="442" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1024.1240@1920.0.1024.1240" timestamp="1590221207347" />
+    <state x="2267" y="542" key="NewPhpFileDialog/0.0.1920.1040/1920.0.1024.1240@1920.0.1024.1240" timestamp="1590250078677" />
+    <state x="1934" y="202" key="SettingsEditor" timestamp="1590252791723">
+      <screen x="1920" y="0" width="1024" height="1240" />
+    </state>
+    <state x="712" y="191" key="SettingsEditor/0.0.1920.1040/1920.0.1024.1240@0.0.1920.1040" timestamp="1590240917930" />
+    <state x="1934" y="202" key="SettingsEditor/0.0.1920.1040/1920.0.1024.1240@1920.0.1024.1240" timestamp="1590252791723" />
+    <state x="2127" y="442" key="com.intellij.ide.util.TipDialog" timestamp="1590250699680">
+      <screen x="1920" y="0" width="1024" height="1240" />
+    </state>
+    <state x="388" y="371" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1024.1240@0.0.1920.1040" timestamp="1590240830471" />
+    <state x="2127" y="442" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1024.1240@1920.0.1024.1240" timestamp="1590250699680" />
     <state x="1018" y="238" key="run.anything.popup" timestamp="1590220230796">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1018" y="238" key="run.anything.popup/0.0.1920.1040/1920.0.1024.1240@0.0.1920.1040" timestamp="1590220230796" />
+    <state x="2095" y="275" width="672" height="678" key="search.everywhere.popup" timestamp="1590593941123">
+      <screen x="1920" y="0" width="1024" height="1240" />
+    </state>
+    <state x="2095" y="275" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1024.1240@1920.0.1024.1240" timestamp="1590593941123" />
   </component>
 </project>
