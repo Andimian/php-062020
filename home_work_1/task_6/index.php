@@ -7,32 +7,22 @@ td{background: rgba(255,233,117,0.4); height: 50px; width: 50px; border: 1px sol
 </style>';
 
 echo "<table>";
-for ($i = 0; $i <= 10; $i++) {
+for ($i = 1; $i <= 10; $i++) {
     echo "<tr>";
-    for ($i2 = 0; $i2 <= 10; $i2++) {
-        $res = $i * $i2;
-        echo "<td>";
-        if ($i == 0 & $i2 == 0) {
-            echo 'X';
-            continue;
-        } elseif ($i == 0) {
-            echo $i2;
-            continue;
-        } elseif ($i2 == 0) {
-            echo $i;
-            continue;
-        } elseif ($res % 2 == 0) {
+    echo "<td>$i</td>";
+    for ($a = 2; $a <= 10; $a++) {
+        $res = $i * $a;
+        if ($i == 1) {
+            echo "<td>$a</td>";
+        } elseif ($i % 2 == 0 && $a % 2 == 0) {
             echo '<td>(' . $res . ')</td>';
-        } elseif ($res % 2 != 0) {
+        } elseif ($i % 2 != 0 && $a % 2 != 0) {
             echo '<td>[' . $res . ']</td>';
         } else {
-            echo $res;
+            echo "<td>$res</td>";
         }
-        echo "</td>";
+
     }
     echo "</tr>";
 }
-
-
-
 echo "</table>";
