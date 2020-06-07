@@ -21,6 +21,7 @@ class Db
     }
 
 //    создаёт объект класса
+//:self - означает что должен вренуться объект того же типа или класса
     public static function getInstance(): self
     {
         if (!self::$instance) {
@@ -40,6 +41,7 @@ class Db
         $dbPassword = DB_PASSWORD;
 
         if (!$this->pdo) {
+//            соединение. В результате мы получаем переменную $this->pdo, с которым и работаем далее на протяжении всего скрипта.
             $this->pdo = new \PDO("mysql:host=$host;dbname=$dbName", $dbUser, $dbPassword);
         }
 
@@ -72,11 +74,17 @@ class Db
 //    получает одну запись (например по primary key)
     public function fetchOne(string $query, $_method, array $params = [])
     {
+//        метка времени
         $t = microtime(true);
-//        используется prepare
+
+//      Если в запрос передаётся хотя бы одна переменная, то этот
+//      запрос в обязательном порядке должен выполняться только через подготовленные
+//      выражения (используется prepare). Чтобы выполнить такой запрос, сначала его надо подготовить с
+//      помощью функции prepare(). Она также возвращает PDO statement, но ещё без данных.
         $prepared = $this->getConnection()->prepare($query);
 
-//        передаются параметры в запрос
+//      в случае именованных плейсхолдеров (типа :name) в execute() должен передаваться массив, в котором ключи
+//      должны совпадать с именами плейсхолдеров. После этого можно использовать PDO statement Например, через foreach
         $ret = $prepared->execute($params);
 
         if (!$ret) {

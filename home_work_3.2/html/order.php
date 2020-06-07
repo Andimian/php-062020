@@ -14,7 +14,7 @@ $email = $_POST['email'];
 
 $name = $_POST['name'];
 
-//данные заказ
+//данные заказа
 $addressFields = ['phone', 'street', 'home', 'part', 'appt', 'floor'];
 $address = '';
 foreach ($_POST as $field => $value) {
